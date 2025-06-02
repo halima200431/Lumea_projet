@@ -21,4 +21,6 @@ if ($id) {
 } else {
     echo "<p>Aucun ID fourni</p>";
 }
+
+$qr_content = $contenu; // Le QR code encode le texte directement
 ?>
