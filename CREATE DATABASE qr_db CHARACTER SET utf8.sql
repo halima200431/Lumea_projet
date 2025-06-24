@@ -1,0 +1,8 @@
+CREATE DATABASE qr_db CHARACTER SET utf8mb4;
+USE qr_db;
+
+CREATE TABLE redirections (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    client_id VARCHAR(255) UNIQUE NOT NULL,
+    url TEXT NOT NULL
+);

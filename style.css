@@ -1,0 +1,40 @@
+/* Styles Admin */
+.admin-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.admin-actions {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.admin-btn {
+    display: inline-block;
+    background: #fb0062;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.admin-btn:hover {
+    background: #c7004f;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(251, 0, 98, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .admin-table {
+        display: block;
+        overflow-x: auto;
+    }
+    
+    .action-form {
+        flex-direction: column;
+    }
+}
